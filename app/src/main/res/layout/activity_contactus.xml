@@ -1,0 +1,57 @@
+ <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".contactus"
+    android:background="@drawable/accountback">
+
+    <TextView
+        android:id="@+id/contactTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Contact Us"
+        android:textSize="40dp"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email: contact@bookkaro.com"
+        android:textSize="25dp"
+        android:layout_marginTop="-85dp"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/Tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="We would love to hear from you.."
+        android:textSize="25dp"
+        android:layout_marginTop="-150dp"/>
+
+    <Button
+        android:id="@+id/emailButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:text="Email"
+        android:textColor="#008000"
+        android:textSize="15dp"
+        android:backgroundTint="@color/warm_gray"
+        android:layout_marginBottom="80dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="290dp"
+        android:text="Brought to you by\nJeet Jain\nParth Gupta\nShrutee Salpe"
+        android:layout_marginBottom="20dp"
+        android:textSize="15dp"/>
+
+</FrameLayout>
+
+

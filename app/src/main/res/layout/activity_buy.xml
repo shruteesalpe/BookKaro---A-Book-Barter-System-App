@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".buy"
+    android:background="@drawable/paperback3">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="201dp"
+        android:background="@drawable/image"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="BUY"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <SearchView
+            android:id="@+id/search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="30dp"
+            android:background="@color/white"
+            android:inputType="text" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/b1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:text="Fiction"
+                android:textSize="10dp"
+                android:textColor="@color/theme_colour" />
+
+            <Button
+                android:id="@+id/b2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:backgroundTint="@color/white"
+                android:text="Non-\nFiction"
+                android:textSize="10dp"
+                android:textColor="@color/theme_colour" />
+
+            <Button
+                android:id="@+id/b3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:backgroundTint="@color/white"
+                android:text="Text\nBooks"
+                android:textSize="10dp"
+                android:textColor="@color/theme_colour" />
+
+            <Button
+                android:id="@+id/b4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:backgroundTint="@color/white"
+                android:text="Children\nBooks"
+                android:textSize="10dp"
+                android:textColor="@color/theme_colour" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/grid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/paperback3"
+        android:gravity="center"
+        android:horizontalSpacing="20dp"
+        android:numColumns="2"
+        android:padding="10dp"
+        android:verticalSpacing="20dp" />
+
+
+
+</LinearLayout>

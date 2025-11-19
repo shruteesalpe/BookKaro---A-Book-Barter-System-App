@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".userdetails"
+    android:background="@drawable/paperback3">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="134dp"
+        android:layout_marginBottom="579dp"
+        android:text="Sign Up"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="40dp" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="246dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="464dp"
+        android:background="@drawable/searchview"
+        android:hint="Enter Name"
+        android:padding="16dp" />
+
+
+    <EditText
+        android:id="@+id/phoneno"
+        android:layout_width="246dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="372dp"
+        android:background="@drawable/searchview"
+        android:hint="Enter phone no"
+        android:padding="16dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="130dp"
+        android:layout_height="61dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="200dp"
+        android:backgroundTint="#e68968"
+        android:text="NEXT"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="246dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="294dp"
+        android:background="@drawable/searchview"
+        android:hint="Enter Address"
+        android:padding="16dp"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>

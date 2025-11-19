@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sell"
+    android:background="@drawable/paperback3">
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="691dp"
+        android:text="SELL"
+        android:textSize="30dp"
+        android:textColor="@color/cardview_dark_background"/>
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="68dp"
+        android:layout_height="71dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="565dp"
+        android:background="@drawable/circle"
+        app:srcCompat="@android:drawable/ic_menu_camera"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="76dp"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="246dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="464dp"
+        android:background="@drawable/searchview"
+        android:hint="Enter Book Name"
+        android:padding="16dp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="366dp"
+        android:background="@drawable/searchview"
+        />
+
+    <EditText
+        android:id="@+id/price"
+        android:layout_width="246dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="269dp"
+        android:background="@drawable/searchview"
+        android:hint="Enter Book price"
+        android:padding="16dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="130dp"
+        android:layout_height="61dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="103dp"
+        android:backgroundTint="#e68968"
+        android:text="Sell"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/quantity"
+        android:layout_width="246dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="188dp"
+        android:background="@drawable/searchview"
+        android:hint="Enter quantity"
+        android:padding="16dp"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>

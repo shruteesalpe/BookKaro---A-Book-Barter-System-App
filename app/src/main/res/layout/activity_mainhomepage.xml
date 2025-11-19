@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mainhomepage"
+    android:background="@drawable/paperback3">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="104dp"
+        android:layout_height="75dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="22dp"
+        app:srcCompat="@drawable/baseline_home_24" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="160dp"
+        android:layout_marginBottom="22dp"
+        app:srcCompat="@drawable/baseline_account_circle_24" />
+
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="69dp"
+        android:layout_height="61dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="325dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginBottom="26dp"
+        app:srcCompat="@drawable/baseline_call_24" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="98dp"
+        android:layout_height="107dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="66dp"
+        android:layout_marginBottom="347dp"
+        app:srcCompat="@drawable/buy" />
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="119dp"
+        android:layout_height="101dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="55dp"
+        android:layout_marginBottom="350dp"
+        app:srcCompat="@drawable/sell" />
+
+    <ImageButton
+        android:id="@+id/imageButton9"
+        android:layout_width="98dp"
+        android:layout_height="107dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="58dp"
+        android:layout_marginBottom="181dp"
+        app:srcCompat="@drawable/donate" />
+
+    <ImageButton
+        android:id="@+id/imageButton10"
+        android:layout_width="148dp"
+        android:layout_height="113dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="31dp"
+        android:layout_marginBottom="173dp"
+        app:srcCompat="@drawable/exchange" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="97dp"
+        android:layout_marginBottom="318dp"
+        android:text="BUY"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="288dp"
+        android:layout_marginBottom="320dp"
+        android:text="SELL"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="72dp"
+        android:layout_marginBottom="142dp"
+        android:text="DONATE"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="255dp"
+        android:layout_marginBottom="139dp"
+        android:text="EXCHANGE"
+        android:textSize="18dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="206dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="2dp"
+        android:layout_marginBottom="511dp"
+        android:backgroundTint="#07689f"
+        app:srcCompat="@drawable/finallogo" />
+
+</RelativeLayout>

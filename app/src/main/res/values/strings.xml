@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">bookkaro</string>
+    <string-array name="medicine">
+        <item>To Kill a Mockingbird</item>
+        <item>1984</item>
+        <item>The Catcher in the Rye</item>
+        <item>The Great Gatsby</item>
+        <item>Sapiens: A Brief History of Humankind</item>
+        <item>The Power of Habit</item>
+        <item>The Fault in Our Stars</item>
+        <item>Pride and Prejudice</item>
+        <item>Mathematics for Class 10</item>
+        <item>The Alchemist</item>
+        <item>Brave New World</item>
+        <item>Atomic Habits</item>
+        <item>Harry Potter and the Sorcerer Stone</item>
+        <item>The Road</item>
+        <item>Becoming</item>
+        <item>A Brief History of Time</item>
+        <item>Mathematics for Class 12</item>
+        <item>Moby Dick</item>
+        <item>Educated</item>
+        <item>The Subtle Art of Not Giving a F*ck</item>
+        <item>The Hunger Games</item>
+        <item>Biology for Class 11</item>
+        <item>Fahrenheit 451</item>
+        <item>Rich Dad Poor Dad</item>
+        <item>The Book Thief</item>
+        <item>Mathematics for Class 8</item>
+        <item>Animal Farm</item>
+        <item>Thinking, Fast and Slow</item>
+        <item>Jane Eyre</item>
+        <item>The Lean Startup</item>
+
+    </string-array>
+    >
+</resources>
